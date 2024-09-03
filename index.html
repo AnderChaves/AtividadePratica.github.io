@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+<!-- Navigation Bar -->
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    
+    <div class="uk-navbar-left">
+        <a href="" class="uk-navbar-item uk-logo uk-light">AnderChaves.</a>
+    </div>
+    <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav uk-light">
+            <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#education" uk-scroll>Education</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#portfolio" uk-scroll>Portfolio</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#contact" uk-scroll>Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- Navigation Bar Ends  -->
+
+<!-- Navigation Bar Mobile -->
+<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    
+    <div class="uk-navbar-left">
+        <a href="" class="uk-navbar-item uk-logo uk-light">AnderChaves.</a>
+    </div>
+    <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav uk-light">
+            <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Navigation Bar Mobile Ends -->
+<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
+            <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
+            <li class="uk-active"><a href="#education" uk-scroll>Education</a></li>
+            <li class="uk-active"><a href="#portfolio" uk-scroll>Portfolio</a></li>
+            <li class="uk-active"><a href="#contact" uk-scroll>Contact</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- Home -->
+<section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">Sou Anderson Chaves, estudante de ADS, apaixonado por programação e buscando transformar minha vida através da tecnologia.</h1>
+    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a>
+</section>
+
+<!-- Home Ends -->
+<br>
+
+<hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
+
+<!-- About Me -->
+<section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">Sou um profissional apaixonado por tecnologia e programação, com experiência em desenvolvimento de software e análise de dados. Tenho habilidades em várias linguagens de programação e frameworks, e estou sempre buscando aprender e crescer em minha carreira. Acredito que a inovação e a criatividade são essenciais para resolver problemas complexos e criar soluções impactantes.</p>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">Nos meus tempos livres, gosto de ler sobre novas tecnologias, praticar esportes ao ar livre e explorar novas habilidades relacionadas à programação.</p>
+</section>
+
+<!-- Education -->
+<section id="education" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <h3 class="uk-margin-xlarge-left uk-light">Education</h3>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right"><strong>UNINTER, Campinas, SP</strong><br> Análise e Desenvolvimento de Sistemas (Ago/2023-Dez/2025).</p>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right"><strong>Colégio Técnico de Campinas (COTUCA), Campinas, SP</strong><br> Técnico em Mecatrônica (Fev/2017-Dez/2020).</p>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right"><strong>Idiomas:</strong> Português (Nativo), Inglês (Intermediário).</p>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <h3 class="uk-margin-xlarge-left uk-light">Portfolio</h3>
+    <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+            <h4>Análise de Dados com Python</h4>
+            <p>Desenvolvi um projeto de análise de dados utilizando Python, onde realizei a limpeza, análise e visualização de dados de um grande conjunto de dados de vendas. Utilizei as seguintes bibliotecas:</p>
+            <ul>
+                <li><strong>Pandas:</strong> Para manipulação e análise de dados.</li>
+                <li><strong>NumPy:</strong> Para operações numéricas e manipulação de arrays.</li>
+                <li><strong>Matplotlib:</strong> Para criação de gráficos e visualização de dados.</li>
+                <li><strong>Seaborn:</strong> Para visualizações estatísticas aprimoradas.</li>
+            </ul>
+            <p>O projeto envolveu a análise de tendências de vendas, identificação de padrões sazonais e geração de relatórios detalhados para suporte à tomada de decisões.</p>
+            <a class="uk-button-text uk-text-decoration-none" href="https://github.com/seu-repositorio/analise-de-dados-python">Ver Projeto</a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <h3 class="uk-margin-xlarge-left uk-light">Contact</h3>
+    <form class="uk-form-stacked uk-margin-xlarge-left">
+        <div class="uk-margin">
+            <label class="uk-form-label" for="name">Name</label>
+            <div class="uk-form-controls">
+                <input class="uk-input" id="name" type="text" placeholder="Your Name" required>
+            </div>
+        </div>
+        <div class="uk-margin">
+            <label class="uk-form-label" for="email">Email</label>
+            <div class="uk-form-controls">
+                <input class="uk-input" id="email" type="email" placeholder="Your Email" required>
+            </div>
+        </div>
+        <div class="uk-margin">
+            <label class="uk-form-label" for="message">Message</label>
+            <div class="uk-form-controls">
+                <textarea class="uk-textarea" id="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+        </div>
+        <button class="uk-button uk-button-secondary" type="submit">Send</button>
+    </form>
+</section>
+
+<!-- Contact Ends -->
+
+</body>
+</html>
